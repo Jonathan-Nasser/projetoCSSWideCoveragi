@@ -1,0 +1,126 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.link-header {
+    margin-right: 32px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.875px;
+    text-align: center;
+}
+
+.button-header {
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 6px;
+    color: white;
+    background-color: #6FBF44;
+    border: none;
+    width: 124px;
+    height: 51px;
+}
+
+img {
+    margin: 163px 0 0 123px;
+    /* width: 595.18px;
+    height: 500px;
+    margin-top: 163px;
+    margin-left: 121px;
+    display: inline-block; */
+}
+
+section {
+    display: inline-block;
+    margin-left: 84px;
+    width: 493px;
+}
+
+h1 {
+    /* width: 582px; */
+    /* height: 164px; */
+    /* top: 342px; */
+    /* left: 801px; */
+    font-weight: 700px;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154;
+    color: #161A49;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0, 5px;
+    /* text-align: left; */
+    color: #4B505A;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+.link-section {
+    color: #6FBF44;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    /* text-align: left; */
+}
+
+@media screen and (max-width: 900px) {
+
+    
+    .link-header {
+        display: none;
+    }
+
+    .button-header {
+        margin-top: 0;
+        margin-left: 288px;
+        width: 91px;
+        height: 31px;
+        /* margin: 17px 15px 0 218px; */
+        font-size: 12px;
+        line-height: 18px;       
+
+    }
+
+    section {
+        
+
+    }
+
+    h1 {
+
+        margin: 76px 55px 0 55px;
+        width: 278px;
+        height: 60px;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    img {       
+      margin: 0;  
+      height: 288;
+      width: 312px;
+      position: fixed;
+      margin: 490px 39px 22px 39px;  
+
+    }
+}
